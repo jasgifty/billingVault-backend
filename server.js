@@ -15,7 +15,6 @@ mongoose
   .connect(URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false,
   })
   .then(() =>
     app.listen(port, (req, res) =>
